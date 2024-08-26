@@ -16,7 +16,7 @@ circulox = [0, 0, 0];
 fill(cor);
 
 for(let contador in circulox) {
-19 circle(circuloX[contador], circuloY[contador], 50);
+circle(circuloX[contador], circuloY[contador], 50);
 circuloX[contador]+= random(0,3);
 circuloY[contador]+= random(-3,3);
 
